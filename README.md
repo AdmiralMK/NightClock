@@ -44,15 +44,15 @@ NightClock/
 ├── platformio.ini # Конфигурация PlatformIO (плата, библиотеки)
 ├── data/ # LittleFS (config.json создаётся автоматически)
 └── src/
-├── main.cpp # Оркестрация, конечный автомат
-├── config_manager.h/cpp # LittleFS + ArduinoJson, настройки
-├── display_manager.h/cpp# TM1637: анимации, плавная яркость
-├── ntp_manager.h/cpp # Синхронизация времени, POSIX TZ
-├── wifi_manager.h/cpp # Wi-Fi, AP-режим, отложенный перезапуск
-├── brightness_engine.h/cpp # Расчёт целевой яркости (время/солнце)
-├── web_server.h/cpp # ESPAsyncWebServer, REST API
-├── index_html.h/cpp # HTML-панель в PROGMEM
-└── ...
+    ├── main.cpp # Оркестрация, конечный автомат
+    ├── config_manager.h/cpp # LittleFS + ArduinoJson, настройки
+    ├── display_manager.h/cpp# TM1637: анимации, плавная яркость
+    ├── ntp_manager.h/cpp # Синхронизация времени, POSIX TZ
+    ├── wifi_manager.h/cpp # Wi-Fi, AP-режим, отложенный перезапуск
+    ├── brightness_engine.h/cpp # Расчёт целевой яркости (время/солнце)
+    ├── web_server.h/cpp # ESPAsyncWebServer, REST API
+    ├── index_html.h/cpp # HTML-панель в PROGMEM
+    └── ...
 
 
 ### 📚 Описание модулей
